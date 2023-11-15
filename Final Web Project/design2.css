@@ -1,0 +1,157 @@
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #a4b2af;
+}
+
+img {
+    max-width: 100%;
+}
+
+.maincontent {
+    font-size: 102%;
+    padding: 10px;
+    line-height: 1.3;
+}
+
+.split {
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    align-items: last baseline;
+}
+
+.mission {
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin-right: 30px;
+}
+
+.visual {
+    grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.apart {
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    align-items: last baseline;
+}
+
+.visualll {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.splittt {
+    grid-area: 1 / 2 / span 1 / span 1;
+    margin-left: 30px;
+}
+
+.group1 {
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    align-items: first start;
+}
+
+.group1a {
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin-right: 40px;
+}
+
+.group1b {
+    grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.group2 {
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    align-items: first start;
+}
+
+.group2a {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.group2b {
+    grid-area: 1 / 2 / span 1 / span 1;
+    margin-left: 50px;
+}
+
+.group3 {
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    align-items: first start;
+}
+
+.group3a {
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin-right: 40px;
+}
+
+.group3b {
+    grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.group4 {
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    align-items: first start;
+}
+
+.group4a {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.group4b {
+    grid-area: 1 / 2 / span 1 / span 1;
+    margin-left: 60px;
+}
+
+.bullet ol li {
+    font-weight: bold;
+    line-height: 90%;
+}
+
+.bullet {
+    line-height: normal;
+}
+
